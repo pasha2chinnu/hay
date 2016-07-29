@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PVV-xv-Voh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Film_Cty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1q6-23-rEk">
+                                <rect key="frame" x="20" y="237" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="User Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eC2-G2-ror">
+                                <rect key="frame" x="72" y="195" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="qlC-cD-Kov">
+                                <rect key="frame" x="24" y="191" width="30" height="30"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yfs-TC-imf">
+                                <rect key="frame" x="20" y="290" width="331" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCF-xq-q14">
+                                <rect key="frame" x="145" y="358" width="85" height="30"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LZv-ou-kzG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cCF-xq-q14" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0nv-nJ-U4n"/>
+                            <constraint firstItem="cCF-xq-q14" firstAttribute="top" secondItem="yfs-TC-imf" secondAttribute="bottom" constant="38" id="9V4-6R-Feg"/>
+                            <constraint firstItem="qlC-cD-Kov" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="171" id="AcZ-ED-nEE"/>
+                            <constraint firstItem="1q6-23-rEk" firstAttribute="top" secondItem="eC2-G2-ror" secondAttribute="bottom" constant="21" id="E1y-ZU-WVm"/>
+                            <constraint firstItem="eC2-G2-ror" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="E8U-4Z-qeU"/>
+                            <constraint firstItem="yfs-TC-imf" firstAttribute="top" secondItem="1q6-23-rEk" secondAttribute="bottom" constant="23" id="G04-fk-6bh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1q6-23-rEk" secondAttribute="trailing" id="IeJ-9m-XiU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yfs-TC-imf" secondAttribute="trailing" constant="4" id="KYk-cL-Ozw"/>
+                            <constraint firstItem="qlC-cD-Kov" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="WSJ-pU-vB7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="yfs-TC-imf" secondAttribute="leading" id="YWX-5V-X7b"/>
+                            <constraint firstItem="eC2-G2-ror" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="175" id="ZLY-zc-g2P"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eC2-G2-ror" secondAttribute="trailing" constant="147" id="gAS-EK-QOd"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="1q6-23-rEk" secondAttribute="leading" id="z1x-yT-Qvl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z7I-8t-9Pw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="LoginButton" destination="cCF-xq-q14" id="CWt-Jq-R8N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1279.5" y="377.5"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="HXD-hy-u3F">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="mAQ-mW-3zE" customClass="HomeViewController" customModule="Film_Cty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zy9-q5-aF6"/>
+                        <viewControllerLayoutGuide type="bottom" id="b6q-Nf-aUw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kKJ-SC-CHt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="faX-Jv-FYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714.5" y="377.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2de-PJ-B3K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PVV-xv-Voh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5am-pA-KG3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZGN-5V-BS8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXX-j5-ii7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720.5" y="377.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="user" width="40" height="40"/>
+    </resources>
+</document>
