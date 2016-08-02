@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // create viewController code...
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let mainViewController = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as! MainViewController
+        let leftViewController = storyboard.instantiateViewControllerWithIdentifier("LeftViewController") as! LeftViewController
+        
+        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+        
+        UINavigationBar.appearance().tintColor = UIColor(hex: "689F38")
+        
+        leftViewController.mainViewController = nvc
+        
+        let slideMenuController = ExSlideMenuController(mainViewController:nvc, leftMenuViewController: leftViewController)
+        slideMenuController.automaticallyAdjustsScrollViewInsets = true
+        slideMenuController.delegate = mainViewController
+        self.window?.backgroundColor = UIColor(red: 236.0, green: 238.0, blue: 241.0, alpha: 1.0)
+        self.window?.rootViewController = slideMenuController
+        
         return true
     }
 

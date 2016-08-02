@@ -12,6 +12,26 @@
 		183AFF381D268E400009F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF361D268E400009F055 /* Main.storyboard */; };
 		183AFF3A1D268E400009F055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF391D268E400009F055 /* Assets.xcassets */; };
 		183AFF3D1D268E400009F055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF3B1D268E400009F055 /* LaunchScreen.storyboard */; };
+		189103E51D507A05005B4DFA /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103E11D507A05005B4DFA /* LeftViewController.swift */; };
+		189103E61D507A05005B4DFA /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103E21D507A05005B4DFA /* SwiftViewController.swift */; };
+		189103E71D507A05005B4DFA /* JavaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103E31D507A05005B4DFA /* JavaViewController.swift */; };
+		189103E81D507A05005B4DFA /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103E41D507A05005B4DFA /* GoViewController.swift */; };
+		189103EA1D507C65005B4DFA /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103E91D507C65005B4DFA /* SlideMenuController.swift */; };
+		189103ED1D507C9E005B4DFA /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103EC1D507C9E005B4DFA /* ImageHeaderView.swift */; };
+		189103F71D507CEE005B4DFA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103EF1D507CEE005B4DFA /* String.swift */; };
+		189103F81D507CEE005B4DFA /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F01D507CEE005B4DFA /* UITableViewExtension.swift */; };
+		189103F91D507CEE005B4DFA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F11D507CEE005B4DFA /* UIViewController.swift */; };
+		189103FA1D507CEE005B4DFA /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F21D507CEE005B4DFA /* UIImageView.swift */; };
+		189103FB1D507CEE005B4DFA /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F31D507CEE005B4DFA /* UIImage.swift */; };
+		189103FC1D507CEE005B4DFA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F41D507CEE005B4DFA /* UIView.swift */; };
+		189103FD1D507CEE005B4DFA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F51D507CEE005B4DFA /* UIColor.swift */; };
+		189103FE1D507CEE005B4DFA /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189103F61D507CEE005B4DFA /* UIApplication.swift */; };
+		189104021D507D4B005B4DFA /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189104001D507D4B005B4DFA /* BaseTableViewCell.swift */; };
+		189104031D507D4B005B4DFA /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189104011D507D4B005B4DFA /* DataTableViewCell.swift */; };
+		189104051D507DA6005B4DFA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189104041D507DA6005B4DFA /* MainViewController.swift */; };
+		189104071D507DEE005B4DFA /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189104061D507DEE005B4DFA /* DataTableViewCell.xib */; };
+		189104091D507DF7005B4DFA /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189104081D507DF7005B4DFA /* ImageHeaderView.xib */; };
+		1891040B1D5080A2005B4DFA /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891040A1D5080A2005B4DFA /* ExSlideMenuController.swift */; };
 		18C1B3D61D3E786200A26864 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1B3D51D3E786200A26864 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +43,26 @@
 		183AFF391D268E400009F055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183AFF3C1D268E400009F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183AFF3E1D268E400009F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189103E11D507A05005B4DFA /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		189103E21D507A05005B4DFA /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		189103E31D507A05005B4DFA /* JavaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaViewController.swift; sourceTree = "<group>"; };
+		189103E41D507A05005B4DFA /* GoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
+		189103E91D507C65005B4DFA /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		189103EC1D507C9E005B4DFA /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		189103EF1D507CEE005B4DFA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		189103F01D507CEE005B4DFA /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		189103F11D507CEE005B4DFA /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		189103F21D507CEE005B4DFA /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		189103F31D507CEE005B4DFA /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		189103F41D507CEE005B4DFA /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		189103F51D507CEE005B4DFA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		189103F61D507CEE005B4DFA /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		189104001D507D4B005B4DFA /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		189104011D507D4B005B4DFA /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		189104041D507DA6005B4DFA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		189104061D507DEE005B4DFA /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		189104081D507DF7005B4DFA /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
+		1891040A1D5080A2005B4DFA /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
 		18C1B3D51D3E786200A26864 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +96,7 @@
 		183AFF311D268E400009F055 /* Film Cty */ = {
 			isa = PBXGroup;
 			children = (
+				189103E01D5079E6005B4DFA /* SlideMenu */,
 				183AFF321D268E400009F055 /* AppDelegate.swift */,
 				183AFF341D268E400009F055 /* ViewController.swift */,
 				18C1B3D51D3E786200A26864 /* HomeViewController.swift */,
@@ -65,6 +106,57 @@
 				183AFF3E1D268E400009F055 /* Info.plist */,
 			);
 			path = "Film Cty";
+			sourceTree = "<group>";
+		};
+		189103E01D5079E6005B4DFA /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				189103E91D507C65005B4DFA /* SlideMenuController.swift */,
+				189104041D507DA6005B4DFA /* MainViewController.swift */,
+				189103E11D507A05005B4DFA /* LeftViewController.swift */,
+				189103E21D507A05005B4DFA /* SwiftViewController.swift */,
+				189103E31D507A05005B4DFA /* JavaViewController.swift */,
+				189103E41D507A05005B4DFA /* GoViewController.swift */,
+				1891040A1D5080A2005B4DFA /* ExSlideMenuController.swift */,
+				189103EB1D507C71005B4DFA /* View */,
+				189103EE1D507CC5005B4DFA /* Extensions */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		189103EB1D507C71005B4DFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189103FF1D507D2E005B4DFA /* TableViewCell */,
+				189103EC1D507C9E005B4DFA /* ImageHeaderView.swift */,
+				189104081D507DF7005B4DFA /* ImageHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		189103EE1D507CC5005B4DFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				189103EF1D507CEE005B4DFA /* String.swift */,
+				189103F01D507CEE005B4DFA /* UITableViewExtension.swift */,
+				189103F11D507CEE005B4DFA /* UIViewController.swift */,
+				189103F21D507CEE005B4DFA /* UIImageView.swift */,
+				189103F31D507CEE005B4DFA /* UIImage.swift */,
+				189103F41D507CEE005B4DFA /* UIView.swift */,
+				189103F51D507CEE005B4DFA /* UIColor.swift */,
+				189103F61D507CEE005B4DFA /* UIApplication.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		189103FF1D507D2E005B4DFA /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				189104001D507D4B005B4DFA /* BaseTableViewCell.swift */,
+				189104011D507D4B005B4DFA /* DataTableViewCell.swift */,
+				189104061D507DEE005B4DFA /* DataTableViewCell.xib */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				183AFF3D1D268E400009F055 /* LaunchScreen.storyboard in Resources */,
+				189104091D507DF7005B4DFA /* ImageHeaderView.xib in Resources */,
 				183AFF3A1D268E400009F055 /* Assets.xcassets in Resources */,
 				183AFF381D268E400009F055 /* Main.storyboard in Resources */,
+				189104071D507DEE005B4DFA /* DataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +232,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189103ED1D507C9E005B4DFA /* ImageHeaderView.swift in Sources */,
 				183AFF351D268E400009F055 /* ViewController.swift in Sources */,
+				1891040B1D5080A2005B4DFA /* ExSlideMenuController.swift in Sources */,
+				189103F91D507CEE005B4DFA /* UIViewController.swift in Sources */,
+				189103FA1D507CEE005B4DFA /* UIImageView.swift in Sources */,
+				189104021D507D4B005B4DFA /* BaseTableViewCell.swift in Sources */,
+				189103F71D507CEE005B4DFA /* String.swift in Sources */,
+				189104031D507D4B005B4DFA /* DataTableViewCell.swift in Sources */,
+				189103FD1D507CEE005B4DFA /* UIColor.swift in Sources */,
+				189103E51D507A05005B4DFA /* LeftViewController.swift in Sources */,
+				189103E71D507A05005B4DFA /* JavaViewController.swift in Sources */,
+				189103F81D507CEE005B4DFA /* UITableViewExtension.swift in Sources */,
 				183AFF331D268E400009F055 /* AppDelegate.swift in Sources */,
+				189103E61D507A05005B4DFA /* SwiftViewController.swift in Sources */,
+				189103FE1D507CEE005B4DFA /* UIApplication.swift in Sources */,
+				189103FC1D507CEE005B4DFA /* UIView.swift in Sources */,
 				18C1B3D61D3E786200A26864 /* HomeViewController.swift in Sources */,
+				189103EA1D507C65005B4DFA /* SlideMenuController.swift in Sources */,
+				189103E81D507A05005B4DFA /* GoViewController.swift in Sources */,
+				189103FB1D507CEE005B4DFA /* UIImage.swift in Sources */,
+				189104051D507DA6005B4DFA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
