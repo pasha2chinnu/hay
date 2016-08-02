@@ -14,6 +14,8 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.setNavigationBarItem()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +24,9 @@ class HomeViewController: UIViewController {
     }
     
 
+//    extension HomeViewController : SlideMenuControllerDelegate {
+//    }
+    
     /*
     // MARK: - Navigation
 

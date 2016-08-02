@@ -23,11 +23,10 @@ class LeftViewController : UIViewController, LeftMenuProtocol {
     
     @IBOutlet weak var tableView: UITableView!
     var menus = ["Main", "Swift", "Java", "Go", "NonMenu"]
-    var mainViewController: UIViewController!
+    var homeViewController: UIViewController!
     var swiftViewController: UIViewController!
     var javaViewController: UIViewController!
     var goViewController: UIViewController!
-    var nonMenuViewController: UIViewController!
     var imageHeaderView: ImageHeaderView!
     
     required init?(coder aDecoder: NSCoder) {
@@ -68,15 +67,14 @@ class LeftViewController : UIViewController, LeftMenuProtocol {
     func changeViewController(menu: LeftMenu) {
         switch menu {
         case .Main:
-            self.slideMenuController()?.changeMainViewController(self.mainViewController, close: true)
+            self.slideMenuController()?.changeMainViewController(self.homeViewController, close: true)
         case .Swift:
             self.slideMenuController()?.changeMainViewController(self.swiftViewController, close: true)
         case .Java:
             self.slideMenuController()?.changeMainViewController(self.javaViewController, close: true)
         case .Go:
             self.slideMenuController()?.changeMainViewController(self.goViewController, close: true)
-//        case .NonMenu:
-//            self.slideMenuController()?.changeMainViewController(self.nonMenuViewController, close: true)
+
         }
     }
 }
