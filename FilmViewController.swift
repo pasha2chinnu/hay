@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  FilmViewController.swift
 //  Film Cty
 //
-//  Created by Kvana MacBook on 19/07/16.
+//  Created by Kvana MacBook on 09/08/16.
 //  Copyright © 2016 Kvana MacBook. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class FilmViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,17 +23,10 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     override func viewWillAppear(animated: Bool) {
         
     }
-    
 
-    
-
-//    extension HomeViewController : SlideMenuControllerDelegate {
-//    }
-    
     /*
     // MARK: - Navigation
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		183AFF331D268E400009F055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AFF321D268E400009F055 /* AppDelegate.swift */; };
-		183AFF351D268E400009F055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AFF341D268E400009F055 /* ViewController.swift */; };
 		183AFF381D268E400009F055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF361D268E400009F055 /* Main.storyboard */; };
 		183AFF3A1D268E400009F055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF391D268E400009F055 /* Assets.xcassets */; };
 		183AFF3D1D268E400009F055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AFF3B1D268E400009F055 /* LaunchScreen.storyboard */; };
@@ -31,6 +30,7 @@
 		189104071D507DEE005B4DFA /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189104061D507DEE005B4DFA /* DataTableViewCell.xib */; };
 		189104091D507DF7005B4DFA /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189104081D507DF7005B4DFA /* ImageHeaderView.xib */; };
 		1891040B1D5080A2005B4DFA /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891040A1D5080A2005B4DFA /* ExSlideMenuController.swift */; };
+		1893E7691D59AB1400343405 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893E7681D59AB1400343405 /* FilmViewController.swift */; };
 		18C1B3D61D3E786200A26864 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1B3D51D3E786200A26864 /* HomeViewController.swift */; };
 		76F264CE4C591591B544E109 /* Pods_Film_Cty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDF083B14674495B15A938 /* Pods_Film_Cty.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,6 @@
 		0D33E19F68E59B27D72F97C6 /* Pods-Film Cty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Cty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Film Cty/Pods-Film Cty.release.xcconfig"; sourceTree = "<group>"; };
 		183AFF2F1D268E400009F055 /* Film Cty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Film Cty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183AFF321D268E400009F055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		183AFF341D268E400009F055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		183AFF371D268E400009F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183AFF391D268E400009F055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183AFF3C1D268E400009F055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		189104061D507DEE005B4DFA /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		189104081D507DF7005B4DFA /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
 		1891040A1D5080A2005B4DFA /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		1893E7681D59AB1400343405 /* FilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmViewController.swift; path = ../FilmViewController.swift; sourceTree = "<group>"; };
 		18C1B3D51D3E786200A26864 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AECDF083B14674495B15A938 /* Pods_Film_Cty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Film_Cty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AB4D1C824ABF8535726B82 /* Pods-Film Cty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film Cty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Film Cty/Pods-Film Cty.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 			children = (
 				189103E01D5079E6005B4DFA /* SlideMenu */,
 				183AFF321D268E400009F055 /* AppDelegate.swift */,
-				183AFF341D268E400009F055 /* ViewController.swift */,
 				18C1B3D51D3E786200A26864 /* HomeViewController.swift */,
+				1893E7681D59AB1400343405 /* FilmViewController.swift */,
 				183AFF361D268E400009F055 /* Main.storyboard */,
 				183AFF391D268E400009F055 /* Assets.xcassets */,
 				183AFF3B1D268E400009F055 /* LaunchScreen.storyboard */,
@@ -305,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				189103ED1D507C9E005B4DFA /* ImageHeaderView.swift in Sources */,
-				183AFF351D268E400009F055 /* ViewController.swift in Sources */,
 				1891040B1D5080A2005B4DFA /* ExSlideMenuController.swift in Sources */,
 				189103F91D507CEE005B4DFA /* UIViewController.swift in Sources */,
 				189103FA1D507CEE005B4DFA /* UIImageView.swift in Sources */,
@@ -323,6 +322,7 @@
 				18C1B3D61D3E786200A26864 /* HomeViewController.swift in Sources */,
 				189103EA1D507C65005B4DFA /* SlideMenuController.swift in Sources */,
 				189103E81D507A05005B4DFA /* GoViewController.swift in Sources */,
+				1893E7691D59AB1400343405 /* FilmViewController.swift in Sources */,
 				189103FB1D507CEE005B4DFA /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

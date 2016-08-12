@@ -6,6 +6,5 @@ target 'Film Cty' do
   use_frameworks!
 
   # Pods for Film Cty
-  pod 'SlideMenuControllerSwift'
 
 end

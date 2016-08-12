@@ -13,6 +13,7 @@ class ExSlideMenuController : SlideMenuController {
     override func isTagetViewController() -> Bool {
         if let vc = UIApplication.topViewController() {
             if vc is HomeViewController ||
+            vc is FilmViewController ||
             vc is SwiftViewController ||
             vc is JavaViewController ||
             vc is GoViewController {

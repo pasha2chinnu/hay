@@ -8,7 +8,8 @@
 import UIKit
 
 enum LeftMenu: Int {
-    case Main = 0
+    case Home = 0
+    case film
     case Swift
     case Java
     case Go
@@ -22,8 +23,9 @@ protocol LeftMenuProtocol : class {
 class LeftViewController : UIViewController, LeftMenuProtocol {
     
     @IBOutlet weak var tableView: UITableView!
-    var menus = ["Main", "Swift", "Java", "Go", "NonMenu"]
+    var menus = ["Home","Film News", "Swift", "Java","Go"]
     var homeViewController: UIViewController!
+    var filmViewController: UIViewController!
     var swiftViewController: UIViewController!
     var javaViewController: UIViewController!
     var goViewController: UIViewController!
@@ -38,6 +40,12 @@ class LeftViewController : UIViewController, LeftMenuProtocol {
         self.tableView.separatorColor = UIColor(red: 224/255, green: 224/255, blue: 224/255, alpha: 1.0)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let homeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
+        self.homeViewController = UINavigationController(rootViewController: homeViewController)
+        
+        let filmViewController = storyboard.instantiateViewControllerWithIdentifier("FilmViewController") as! FilmViewController
+        self.filmViewController = UINavigationController(rootViewController: filmViewController)
+        
         let swiftViewController = storyboard.instantiateViewControllerWithIdentifier("SwiftViewController") as! SwiftViewController
         self.swiftViewController = UINavigationController(rootViewController: swiftViewController)
         
@@ -66,8 +74,10 @@ class LeftViewController : UIViewController, LeftMenuProtocol {
     
     func changeViewController(menu: LeftMenu) {
         switch menu {
-        case .Main:
+        case .Home:
             self.slideMenuController()?.changeMainViewController(self.homeViewController, close: true)
+        case .film:
+            self.slideMenuController()?.changeMainViewController(self.filmViewController, close: true)
         case .Swift:
             self.slideMenuController()?.changeMainViewController(self.swiftViewController, close: true)
         case .Java:
@@ -83,7 +93,7 @@ extension LeftViewController : UITableViewDelegate {
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if let menu = LeftMenu(rawValue: indexPath.item) {
             switch menu {
-            case .Main, .Swift, .Java, .Go:      //   .NonMenu:
+            case .Home, .film, .Swift, .Java, .Go:      //   .NonMenu:
                 return BaseTableViewCell.height()
             }
         }
@@ -101,7 +111,7 @@ extension LeftViewController : UITableViewDataSource {
         
         if let menu = LeftMenu(rawValue: indexPath.item) {
             switch menu {
-            case .Main, .Swift, .Java, .Go:      //, .NonMenu:
+            case .Home, .film, .Swift, .Java, .Go:      //, .NonMenu:
                 let cell = BaseTableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: BaseTableViewCell.identifier)
                 cell.setData(menus[indexPath.row])
                 return cell

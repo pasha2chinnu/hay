@@ -172,6 +172,25 @@
             </objects>
             <point key="canvasLocation" x="2698.5" y="-538.5"/>
         </scene>
+        <!--Film View Controller-->
+        <scene sceneID="F02-2I-CTk">
+            <objects>
+                <viewController storyboardIdentifier="FilmViewController" id="7n7-4c-knr" customClass="FilmViewController" customModule="Film_Cty" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1AD-8b-KLx"/>
+                        <viewControllerLayoutGuide type="bottom" id="oiH-vh-7o1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HCz-Qw-VQK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rob-0X-lOW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3129.5" y="-538.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RP7-JE-A99">
             <objects>
